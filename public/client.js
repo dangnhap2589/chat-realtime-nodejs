@@ -1,4 +1,4 @@
-var socket = io.connect('https://chatsocketio0001.herokuapp.com');
+var socket = io.connect('https://chatsocketio0002.herokuapp.com');
 socket.on('connect', function (data) {
     socket.emit('join', 'Hello server from client');
 });
